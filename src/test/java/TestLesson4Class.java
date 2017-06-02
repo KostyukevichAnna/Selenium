@@ -16,7 +16,7 @@ public class TestLesson4Class {
         driver.findElement(By.cssSelector("input[name='username']")).sendKeys("admin");
         driver.findElement(By.cssSelector("input[name='password']")).sendKeys("admin");
         driver.findElement(By.cssSelector("button")).click();
-        driver.close();
+        driver.quit();
     }
 
     @Test
@@ -26,7 +26,7 @@ public class TestLesson4Class {
         driver.findElement(By.cssSelector("input[name='username']")).sendKeys("admin");
         driver.findElement(By.cssSelector("input[name='password']")).sendKeys("admin");
         driver.findElement(By.cssSelector("button")).click();
-        driver.close();
+        driver.quit();
     }
 
     @Test
@@ -36,6 +36,6 @@ public class TestLesson4Class {
         driver.findElement(By.cssSelector("input[name='username']")).sendKeys("admin");
         driver.findElement(By.cssSelector("input[name='password']")).sendKeys("admin");
         driver.findElement(By.cssSelector("button")).click();
-        driver.close();
+        driver.quit();
     }
 }

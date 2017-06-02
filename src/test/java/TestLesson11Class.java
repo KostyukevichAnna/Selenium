@@ -85,7 +85,7 @@ public class TestLesson11Class {
 
     @After
     public void stop(){
-        driver.close();
+        driver.quit();
         driver = null;
     }
 }
