@@ -67,7 +67,7 @@ public class TestLesson13Class {
             WebElement productsTable = driver.findElement(By.cssSelector("table.dataTable"));
             wait.until(ExpectedConditions.refreshed(input -> productsTable));
         }
-        catch(Exception NotSuchElementException){};
+        catch(NoSuchElementException ex){};
     }
 
     @Test
